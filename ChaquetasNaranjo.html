@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="Es">
+    <head>
+        <title> Moda </title>
+        <link rel="shortcut icon" href="favicon-16x16.png" type="favicon-16x16" sizes="16px">
+    </head>
+    <body bgcolor="orange">
+        <h1 align="center"> Chaquetas Naranjo </h1>
+        <h2><i> Sea Bienvenido a nuestra pagina web especializada en la venta de chaquetas.</i></h2>
+        <p><i>Fundado en el 11 de mayo del 2023 esta pagina web busca brindarte como usuario la mejor manera de comprar chaquetas en linea a precio accesible</i></p>
+        <table border="3" cellpadding="20px" align="center" style="border-collapse:collapse" bgcolor="White">
+            <thead>
+                <tr>
+                    <th>Imagen </th>
+                    <th>Descripcion</th>
+                    <th>Tallas</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="Marron.jpg" alt="Chaquet1" height="226.3px" width="253px">
+                    </td>
+                    <td> Chaqueta de color Marrón.<br> Hecha de algodón.<Br> Perfecta para la temporada de Otoño</td>
+                    <td rowspan="2"> 
+                        <ul>
+                            <li> Small</li>
+                            <li> Medium</li>
+                            <li> Large</li>
+                        </ul>
+                    </td>
+                    <td>$1500</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Azul.jpg" alt="Chaquet2" height="226.3px" width="253px">
+                    </td>
+                    <td> Chaqueta de color Azul.<br> Hecha de algodón.<Br> Perfecta para la temporada de Otoño.</td>
+                    <td rowspan="2">$1900 </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Oxido.jpg" alt="Chaquet3" height="226.3px" width="253px">
+                    </td>
+                    <td> Chaqueta de color Cobre.<br> Hecha de algodón.<Br> Perfecta para la temporada de Otoño.</td>
+                    <td> 
+                        <ul>
+                            <li> Medium</li>
+                            <li> Large</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h1 align="center">Realizar la compra</h1>
+        <hr color="black">
+        <hr color="black">
+        <form>
+            <fieldset>
+                <legend align="center"><strong>Propiedades del producto</strong></legend>
+                <label for="Color"> Color de la chaqueta</label>
+                <select id="Color">
+                    <optgroup label="Colores">
+                        <option value="Marron">Marrón</option>
+                        <option value="Cobre">Cobre</option>
+                        <option value="Azul">Azul</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                Talla:
+                <input type="radio" name="M" checkedvalue value="s">
+                Small
+                <input type="radio" name="M" value="m">
+                Medium
+                <input type="radio" name="M" value="l">
+                Large
+                <br>
+                <br>
+                <label for="cantidad">Cantidad</label>
+                <select id="cantidad">
+                    <optgroup label="Num">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                Fecha de envio
+                    <input type="date"> 
+                <br>
+                <br>
+                Comentarios
+                <br>
+                <textarea cols="50" rows="2" minlength="10" placeholder="Escribe sugerencias o detalles especificos"> </textarea>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend align="center">Datos Personales</legend>
+                Nombre
+                <input type="text" placeholder="Nombre Completo">
+                <br>
+                <br>
+                Telefono
+                <input type="tel" maxlength="10" pattern="52 [0-9]{8}" placeholder="52 00 0000 0000">
+                <br>
+                <br>
+                Correo electronico
+                <input type="email" placeholder="prueba@gmail.com">
+                <br>
+                <br>
+                Tarjeta de credito
+                <input type="tel" maxlength="12" placeholder="0000 0000 0000">
+                CVV
+                <input type="password" placeholder="000">
+                <br>
+                <br>
+                Dirección
+                <br>
+                <textarea cols="100" rows="3" minlength="20" placeholder="Calle, Colonia, Municipio, Estado, Codigo Postal, Mexico"></textarea>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
